@@ -1,0 +1,8 @@
+# GOTCHA! You sneaky human robot!
+
+User-agent: *
+Disallow: /workworkwork/
+Disallow: /cv/
+
+User-agent: Baidu
+# Disallow: just kidding

@@ -1,0 +1,65 @@
+<title>Saed Mansour</title>
+<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,700">
+<style>
+@import url(http://fonts.googleapis.com/css?family=open-sans|Dosis|Tauri|PT+Sans+Narrow|Patrick+Hand+SC|Sniglet|Gochi+Hand|Shadows+Into+Light|McLaren|Roboto|Roboto+Condensed);
+
+
+  body {
+    /*background-image: linear-gradient(90deg, rgb(83, 184, 252) 25%, rgb(192, 230, 255) 100%);
+background-image: -moz-linear-gradient(left, rgb(83, 184, 252) 25%, rgb(192, 230, 255) 100%);
+background-image: -webkit-linear-gradient(left, rgb(83, 184, 252) 25%, rgb(192, 230, 255) 100%);
+background-image: -o-linear-gradient(left, rgb(83, 184, 252) 25%, rgb(192, 230, 255) 100%);
+background-image: -ms-linear-gradient(left, rgb(83, 184, 252) 25%, rgb(192, 230, 255) 100%);*/
+  }
+
+  .center-page-image {
+    margin-left: auto;
+    margin-right: auto;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .center-page-image img {
+    position: relative;
+    display: block;
+    width: 230px;
+    height: 230px;
+    margin-left: auto;
+    margin-right: auto;
+
+  }
+
+  .image-wrapper {
+    background-color: rgba(57, 128, 174, 1.0);
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 100%;
+  }
+
+  h1{
+    font-family: 'gochi hand';
+    font-size: 1em;
+    font-weight: 300;
+    text-align: center;
+  }
+</style>
+
+<div class="center-page-image">
+  <div class="image-wrapper"><img src="<%= asset_path 'wokami_me.png' %>" /></div>
+  <h1>Talk to me using Intercom :)!</h1>
+</div>
+
+<script>
+  window.intercomSettings = {
+    app_id: "cxm16mdh"
+  };
+</script>
+<script>(function(){var w=window;var ic=w.Intercom;if(typeof ic==="function"){ic('reattach_activator');ic('update',intercomSettings);}else{var d=document;var i=function(){i.c(arguments)};i.q=[];i.c=function(args){i.q.push(args)};w.Intercom=i;function l(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://widget.intercom.io/widget/cxm16mdh';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);}if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})()</script>
+
+
+<script type="text/javascript">
+  window.heap=window.heap||[],heap.load=function(e,t){window.heap.appid=e,window.heap.config=t=t||{};var n=t.forceSSL||"https:"===document.location.protocol,a=document.createElement("script");a.type="text/javascript",a.async=!0,a.src=(n?"https:":"http:")+"//cdn.heapanalytics.com/js/heap-"+e+".js";var o=document.getElementsByTagName("script")[0];o.parentNode.insertBefore(a,o);for(var r=function(e){return function(){heap.push([e].concat(Array.prototype.slice.call(arguments,0)))}},p=["clearEventProperties","identify","setEventProperties","track","unsetEventProperty"],c=0;c<p.length;c++)heap[p[c]]=r(p[c])};
+  heap.load("2345356898");
+</script>
