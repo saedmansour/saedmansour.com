@@ -1,5 +1,3 @@
 == Stuff used
 
-* Rails
-* PostgreSQL
-*
+Awoooo!
